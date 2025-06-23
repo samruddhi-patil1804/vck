@@ -1,0 +1,22 @@
+
+.button{
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+nav{
+    background-color: rgb(0, 94, 255);
+    padding: 50px;
+    text-align: center;
+
+}
+
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: xx-large;
+}
+

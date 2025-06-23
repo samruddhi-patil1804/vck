@@ -1,0 +1,35 @@
+body{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    color:rgb(0, 72, 255);
+
+}
+
+h2{
+  color:rgb(0, 72, 255);
+
+}
+
+button{
+background-color: green;
+color: white;
+text-align: center;
+cursor: pointer;
+
+}
+table ,td,th{
+    border: 1px solid;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+div{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
