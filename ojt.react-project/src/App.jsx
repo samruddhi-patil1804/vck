@@ -6,9 +6,6 @@ import ContactPage from "./pages/ContactPage";
 import "./styles/pages.css";
 import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
-
-
-
 import AdmissionPage from "./pages/AdmissionPage";
 import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 

@@ -13,7 +13,7 @@ const AdmissionPage = () => {
         admissions office.
       </p>
       <h2>Eligibility Criteria for Undergraduate Programs</h2>
-      <table className="admissions-table">
+      <table className="admission-table">
         <thead>
           <tr>
             <th>Program</th>
