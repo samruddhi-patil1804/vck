@@ -13,7 +13,7 @@ const HomePage = () => {
         <div className="hero-overlay-text">
           <h1>Welcome to Vivekanand College!</h1>
           <p>Your journey to excellence starts here.</p>
-          <Link to="/admissions" className="btn hero-btn">
+          <Link to="/admission" className="btn hero-btn">
             Apply Now!
           </Link>{" "}
         </div>
@@ -58,9 +58,9 @@ const HomePage = () => {
       <div className="image-gallery">
         <img
           src="\images\vck2.jpeg"
-          alt="Students studying in library"
+          
         />
-        <img src="\images\vck.avif" alt="Students on campus ground" />
+        <img src="\images\vck.avif" />
       </div>
       <p>
         Explore our vibrant campus and state-of-the-art facilities designed to

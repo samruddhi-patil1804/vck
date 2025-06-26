@@ -1,6 +1,4 @@
-// src/pages/AdmissionsPage.jsx
-import { Link } from "react-router-dom";
-const AdmissionsPage = () => {
+const AdmissionPage = () => {
   return (
     <div className="page-container" style={{ overflow: "auto" }}>
       <h1>Admissions at Vivekanand College</h1>
@@ -43,7 +41,7 @@ const AdmissionsPage = () => {
             <td>Any Stream</td>
             <td>40%</td>
           </tr>
-          {/* Add more rows for other programs as needed */}
+          
         </tbody>
       </table>
       <h2>Application Process</h2>
@@ -76,6 +74,6 @@ const AdmissionsPage = () => {
       </p>
       
     </div>
-  );
-};
-export default AdmissionsPage;
+  )
+}
+export default AdmissionPage;

@@ -8,8 +8,8 @@ import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 
 
-import NotFoundPage from "./pages/NotFoundPage";
-import AdmissionsPage from "./pages/AdmissionPage";
+
+import AdmissionPage from "./pages/AdmissionPage";
 import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/courses" element={<CoursesPage/>}/>
-            <Route path="/admission" element={<AdmissionsPage/>}/>
-            <Route path="*" element={<NotFoundPage />} />
+            <Route path="/admission" element={<AdmissionPage/>}/>
+            
           </Routes>
         </div>
         <Footer />

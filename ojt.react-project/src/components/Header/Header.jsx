@@ -1,4 +1,3 @@
-
 import React, { useState } from "react"; 
 import { Link } from "react-router-dom";
 import "./Header.css";
@@ -32,7 +31,7 @@ function Header() {
         <Link to="/contact" className="nav-item">
           Contact
         </Link>
-        <Link to="/admissions" className="nav-item btn primary-btn">
+        <Link to="/admission" className="nav-item btn primary-btn">
           Apply Now!
         </Link>
         
@@ -52,11 +51,11 @@ function Header() {
         <Link to="/about" className="nav-item" onClick={closeDrawer}>About</Link>
         <Link to="/courses" className="nav-item" onClick={closeDrawer}>Courses</Link>
         <Link to="/contact" className="nav-item" onClick={closeDrawer}>Contact </Link>
-        <Link to="/admissions" className="nav-item btn primary-btn"onClick={closeDrawer} > Apply Now! </Link>
+        <Link to="/admission" className="nav-item btn primary-btn"onClick={closeDrawer} > Apply Now! </Link>
       </nav>
       
       
     </header>
-  );
+  )
 }
 export default Header;
